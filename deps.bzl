@@ -240,7 +240,7 @@ def io_bazel_rules_go(**kwargs):
     """
     name = "io_bazel_rules_go"
     ref = get_ref(name, "01e5a9f8483167962eddd167f7689408bdeb4e76", kwargs) # 0.16.3
-    sha256 = get_sha256(name, "75a187b761dd3437c0722e3ab9a5c0835afc0acdd2cd1dc08f5d4810f409d57d", kwargs)
+    sha256 = get_sha256(name, "278c669f9dd472a1687263e89647397b8e54b588f0228cb57071a2048a049a4d", kwargs)
     github_archive(name, "bazelbuild", "rules_go", ref, sha256)
 
 
@@ -343,7 +343,7 @@ def io_grpc_grpc_java(**kwargs):
     """
     name = "io_grpc_grpc_java"
     ref = get_ref(name, "4a30c9e1d2e3221a45cde97783afd07810b46a8d", kwargs) # v1.17.0
-    sha256 = get_sha256(name, "a7d7def13fd019255ba6ef7499aa91dac38d0ec0f5d9c1262a75ae82f4d67174", kwargs)
+    sha256 = get_sha256(name, "21a57ee2909867930fc1960f2648acf6b5cd0ad3d6ab98ae51d926e6a4b7b696", kwargs)
     github_archive(name, "grpc", "grpc-java", ref, sha256)
 
 
