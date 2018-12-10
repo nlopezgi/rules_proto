@@ -149,8 +149,8 @@ def com_github_nanopb_nanopb(**kwargs):
 
 def com_google_protobuf(**kwargs):
     name = "com_google_protobuf"
-    ref = get_ref(name, "48cb18e5c419ddd23d9badcfe4e9df7bde1979b2", kwargs) # ref referenced by com_github_grpc_grpc
-    sha256 = get_sha256(name, "f5a35e17fb07f3b13517264cd17a089636fcbb2912f9df7bef7414058969a8d2", kwargs)
+    ref = get_ref(name, "66dc42d891a4fc8e9190c524fd67961688a37bbe", kwargs) # ref referenced by com_github_grpc_grpc
+    sha256 = get_sha256(name, "983975ab66113cbaabea4b8ec9f3a73406d89ed74db9ae75c74888e685f956f8", kwargs)
     github_archive(name, "google", "protobuf", ref, sha256)
 
 
@@ -341,9 +341,9 @@ def io_grpc_grpc_java(**kwargs):
     """grpc java plugin and jars
     """
     name = "io_grpc_grpc_java"
-    ref = get_ref(name, "facb0a8c4a61c5e57624817559ca1f8fb2062c1f", kwargs) # v1.17.0
-    sha256 = get_sha256(name, "dfc0e8ec948037009407ee776baf4f405ff0e42c2b1fba72f921cf55ef272bf1", kwargs)
-    github_archive(name, "nlopezgi", "grpc-java", ref, sha256)
+    ref = get_ref(name, "4a30c9e1d2e3221a45cde97783afd07810b46a8d", kwargs) # v1.17.0
+    sha256 = get_sha256(name, "21a57ee2909867930fc1960f2648acf6b5cd0ad3d6ab98ae51d926e6a4b7b696", kwargs)
+    github_archive(name, "grpc", "grpc-java", ref, sha256)
 
 
 def com_google_guava_guava(**kwargs):
